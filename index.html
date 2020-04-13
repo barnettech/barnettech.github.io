@@ -153,7 +153,7 @@ function create ()
     webtechkitchenText = this.add.text(16, 54, 'Web Technology Kitchen', { fontSize: '32px', fill: '#000' });
     if ("highscore" in localStorage) {
       var currentHighScore = localStorage.getItem("highscore");
-      highScoreText.setText('High Score: ' + localStorage.getItem("highscore"));
+      highScoreText.setText('Your High Score: ' + localStorage.getItem("highscore"));
     }
 
     //  Collide the player and the stars with the platforms
