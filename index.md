@@ -150,7 +150,7 @@ function create ()
     //  The score
     scoreText = this.add.text(16, 24, 'score: 0', { fontSize: '32px', fill: '#000' });
     highScoreText = this.add.text(256, 24, 'high score: 0', { fontSize: '32px', fill: '#000' });
-    webtechkitchenText = this.add.text(32, 24, 'Web Technology Kitchen', { fontSize: '32px', fill: '#000' });
+    webtechkitchenText = this.add.text(16, 48, 'Web Technology Kitchen', { fontSize: '32px', fill: '#000' });
     if ("highscore" in localStorage) {
       var currentHighScore = localStorage.getItem("highscore");
       highScoreText.setText('High Score: ' + localStorage.getItem("highscore"));
